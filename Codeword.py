@@ -89,5 +89,7 @@ class Codeword:
     def distance(self, rhsWord):
         wordSum = self + rhsWord
         return wordSum.__weight
+    
+    def cycle(self, offset):
         
         
